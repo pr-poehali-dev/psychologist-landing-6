@@ -288,11 +288,11 @@ const Index = () => {
           <div className="flex flex-col md:flex-row justify-center gap-8 text-lg">
             <div className="flex items-center justify-center gap-3">
               <Icon name="Mail" size={24} className="text-primary-foreground" />
-              <span className="text-muted-foreground">valeria.parshkova@example.com</span>
+              <a href="mailto:valeriyaparshkova1505@gmail.com" className="text-muted-foreground hover:text-foreground transition-colors">valeriyaparshkova1505@gmail.com</a>
             </div>
             <div className="flex items-center justify-center gap-3">
               <Icon name="Phone" size={24} className="text-primary-foreground" />
-              <span className="text-muted-foreground">+7 (900) 000-00-00</span>
+              <a href="tel:+79779858557" className="text-muted-foreground hover:text-foreground transition-colors">+7 (977) 985-85-57</a>
             </div>
           </div>
         </div>
